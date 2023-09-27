@@ -224,6 +224,19 @@ button:hover {
   cursor: pointer;
 }
 
+.attribution {
+  position: absolute;
+  bottom: 0;
+  padding-block-end: 10px;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 /** Media queries */
 @media (max-width: 800px) {
   main {

@@ -1,0 +1,136 @@
+:root {
+  /* Primary */
+  --light-red: hsl(0, 100%, 67%);
+  --orangey-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+  /* Neutral */
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+* {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 730px;
+  height: 510px;
+  background-color: white;
+  box-shadow: 0px 0px 10px var(--pale-blue);
+  border-radius: 30px;
+  text-align: center;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background: linear-gradient(
+    0deg,
+    hsl(241, 81%, 54%) 0%,
+    hsl(252, 100%, 67%) 100%
+  );
+  border-radius: 30px;
+  height: 100%;
+  width: 50%;
+  padding: 0px 50px;
+  color: white;
+}
+
+.result-container > h2 {
+  margin-block-start: 0px;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--light-lavender);
+}
+
+.result-container p {
+  color: var(--light-lavender);
+}
+
+.circle {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 999px;
+  background: linear-gradient(
+    0deg,
+    hsla(241, 72%, 46%, 0) 0%,
+    hsla(256, 72%, 46%, 1) 100%
+  );
+  margin-block-start: 10px;
+}
+
+.circle h3 {
+  font-size: 70px;
+  margin: 0;
+}
+
+.circle p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.result-details h1 {
+  margin: 30px 0 10px;
+}
+
+.result-details p {
+  font-size: 18px;
+}
+
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100%;
+  width: 50%;
+  padding: 40px;
+}
+
+.summary-container > h3 {
+  align-self: flex-start;
+  font-size: 24px;
+  margin-block-start: 0px;
+}
+
+.reaction-card {
+  background-color: var(--light-red);
+}
+
+.memory-card {
+  background-color: var(--orangey-yellow);
+}
+
+.verbal-card {
+  background-color: var(--green-teal);
+}
+
+.visual-card {
+    background-color: var(--cobalt-blue);
+}
+
+.score-cards {
+  display: flex;
+}

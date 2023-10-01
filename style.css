@@ -237,7 +237,6 @@ button:hover {
   color: hsl(228, 45%, 44%);
 }
 
-/** Media queries */
 @media (max-width: 800px) {
   main {
     display: unset;

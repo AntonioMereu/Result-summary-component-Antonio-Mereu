@@ -243,6 +243,10 @@ button:hover {
     height: unset;
   }
 
+  footer {
+    display: none;
+  }
+
   .container {
     display: unset;
     border-radius: unset;
